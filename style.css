@@ -348,11 +348,27 @@
     display: none;
   }
 
-body   {
+header   {
+width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:white;
+}
+
+  body   {
     background-color: wheat;
 }
 
-h1    {
+h1   {
     color: black;
-} 
+}
+
+
+main   {
+    max-width: 100%;
+    background-color: white; 
+    text-align: center;
+}
 
